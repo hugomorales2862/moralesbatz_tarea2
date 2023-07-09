@@ -7,9 +7,18 @@
     <title>Manipulación del DOM</title>
 </head>
 <body>
+    <button id="boton">INICIAR</button>
+    <br>
+    <div id="container">
+        <!-- comentario html -->
+        <p id="parrafo1" class="text-success">este es un ejemplo para el ingreso de texto </p>
+        <p id="parrafo2">EJEMPLO 2 DEL DOM EN UN TEXTO </p>
+        <p id="parrafo3">EJEMPLO 3 DEL DOM EN UN TEXTO </p>
+        <p id="parrafo4">EJEMPLO 4 DEL DOM EN UN TEXXTO </p>
+        <p id="parrafo5">EJEMPLO ULTIMO DEL DOM EN UN TEXTO</p>
+    </div>
     <h1 id="pagina" class="text-success fw-bold">MANIPULACIÓN DEL DOM</h1>
     <div class="container mt-5">
-        <h1 class="text-center mt-3">Registro de Visitas</h1>
         <div class="row justify-content-center mt-2">
           <form action="/moralesb_recuperacion/controladores/visita/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
             <div class="row mb-3">
@@ -32,7 +41,7 @@
             </div>
             <div class="row mb-3">
               <div class="col">
-                <button type="submit" class="btn btn-primary w-100" id="boton">Guardar</button>
+                <button id="boton" type="submit" class="btn btn-primary w-100" id="boton">Guardar</button>
               </div>
             </div>
           </form>
