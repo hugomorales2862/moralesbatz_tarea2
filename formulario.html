@@ -7,7 +7,8 @@
     <title>Manipulación del DOM</title>
 </head>
 <body>
-    <button id="boton">INICIAR</button>
+  <h1 id="pagina" class="text-success fw-bold">MANIPULACIÓN DEL DOM</h1>
+    <button id="botonIniciar">INICIAR</button>
     <br>
     <div id="container">
         <!-- comentario html -->
@@ -17,7 +18,6 @@
         <p id="parrafo4">EJEMPLO 4 DEL DOM EN UN TEXXTO </p>
         <p id="parrafo5">EJEMPLO ULTIMO DEL DOM EN UN TEXTO</p>
     </div>
-    <h1 id="pagina" class="text-success fw-bold">MANIPULACIÓN DEL DOM</h1>
     <div class="container mt-5">
         <div class="row justify-content-center mt-2">
           <form action="/moralesb_recuperacion/controladores/visita/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
@@ -35,13 +35,13 @@
                 <input type="datetime-local" name="hora_ingreso" id="hora_ingreso" class="form-control" required>
               </div>
               <div class="col">
-                <label for="hora_salida" class="form-label">Ingrese la Hora de salida</label>
+                <label id="label_hora_salida" for="hora_salida" class="form-label">Ingrese la Hora de salida</label>
                 <input type="datetime-local" name="hora_salida" id="hora_salida" class="form-control" >
               </div>
             </div>
             <div class="row mb-3">
               <div class="col">
-                <button id="boton" type="submit" class="btn btn-primary w-100" id="boton">Guardar</button>
+                <button id="botonGuardar" type="submit" class="btn btn-primary w-100">Guardar</button>
               </div>
             </div>
           </form>
@@ -51,5 +51,6 @@
     <a href="https://www.facebook.com">Ir a facebook</a>
     <a href="http://www.mipagina.com">Mi pagina</a>
     <script src="script.js"></script>
+    </script>
 </body>
 </html>
